@@ -27,6 +27,7 @@ class Parallelio(CMakePackage):
     variant("pnetcdf", default=False, description="enable pnetcdf")
     variant("timing", default=False, description="enable GPTL timing")
     variant("shared", default=True, description="Build shared libraries")
+    variant("static", default=True, description="Build static libraries")
     variant("logging", default=False, description="enable verbose logging")
     variant(
         "fortran", default=True, description="enable fortran interface (requires netcdf fortran)"
