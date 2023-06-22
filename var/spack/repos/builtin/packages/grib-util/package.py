@@ -25,6 +25,7 @@ class GribUtil(CMakePackage):
     depends_on("libpng")
     depends_on("zlib")
     depends_on("w3nco")
+    depends_on("w3emc")
     depends_on("g2")
     depends_on("bacio")
     depends_on("ip")
